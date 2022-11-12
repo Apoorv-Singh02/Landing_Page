@@ -1,0 +1,126 @@
+* {
+    font-family: 'Roboto',sans-serif;
+}
+
+.Header {
+    background-color: #1f2937;
+    line-height: 75px;
+    color: #f9faf8;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 25px;
+    justify-content: space-between;
+}
+    
+
+ul {
+    list-style: none;
+    display: flex; 
+    margin-top: 20px; 
+}
+
+li {
+    margin-right: 30px;      
+}
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(35, 86, 226);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.First {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #222d3d;
+    font-family: 'Roboto',sans-serif;
+    color: #f9faf8;
+    align-items:center;
+}
+
+#Hero-img {
+    border-radius: 125px;
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+    padding-left: 25px;
+}
+
+#Hero {
+    padding-right: 45px;
+}
+
+.Second {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Card  {
+    width: 200px;
+    display: inline;
+}
+
+.Card-images {
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+    padding-bottom: -5px;
+    margin-bottom: -5px;
+}
+
+h3 {
+    line-height: 50px;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin: 60px;
+}
+
+.Subs {
+    text-align: center;
+    margin-top: -15px;
+    padding-bottom: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color:rgb(151, 141, 141);
+    background-color: aliceblue;
+    position: relative;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding: 70px;
+}
+
+.Sign {
+    margin: 25px;
+    background-color: rgb(11, 67, 219);
+    text-align: center;
+    color: aliceblue;
+    padding: 80px;
+    font-size: 20px;
+}
+
+#Sign-btn {
+    border-style: solid;
+    border-color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 15px;
+}
